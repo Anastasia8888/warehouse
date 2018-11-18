@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Ginora-Sans-Light';
+    src:url('../webfonts/Ginora-Sans-Light.woff') format('woff'),
+        url('../webfonts/Ginora-Sans-Light.svg#Ginora-Sans-Light') format('svg'),
+        url('../webfonts/Ginora-Sans-Light.eot'),
+        url('../webfonts/Ginora-Sans-Light.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
