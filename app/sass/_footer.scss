@@ -1,0 +1,31 @@
+.footer{
+  flex: 0 0 auto;
+  height: 350px;
+  background-image: url(../images/footer_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  p{
+    font-weight: 300;
+    text-transform: none;
+  }
+  .content{
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 130px;
+    display: flex;
+    justify-content: space-between;
+  }
+}  
+.footer__icons{
+  img{
+    margin-right: 45px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+}
+.footer__logo{
+  p{
+    text-align: center;
+    font-size: 30px;
+  }
+}

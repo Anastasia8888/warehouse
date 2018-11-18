@@ -1,0 +1,125 @@
+.dishes_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px; }
+
+.dishes_block_collection {
+  z-index: 10;
+  display: inline-block;
+  width: 25%;
+  height: 380px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  .dishes_block_collection img {
+    display: block;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    margin: 0 auto; }
+
+.dishes_block_presentation {
+  position: relative;
+  z-index: 1;
+  width: 75%; }
+
+.dishes_block_presentation-author {
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  right: 100px; }
+  .dishes_block_presentation-author p {
+    text-align: center; }
+
+.dishes_block_presentation-author-photo {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  margin: 0 auto;
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.dishes_block_presentation-header {
+  margin-top: 60px;
+  margin-left: 60px;
+  position: relative;
+  display: inline-block; }
+
+.dishes_block_presentation-img {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  overflow: hidden; }
+  .dishes_block_presentation-img img {
+    display: block;
+    margin: 0 auto; }
+
+.dishes_block_presentation-money {
+  font-size: 27px; }
+
+.tea_text-favorites {
+  text-transform: uppercase; }
+
+.faved {
+  color: #fa857b; }
+
+.favorites {
+  font-size: 19px;
+  margin-top: 40px;
+  text-transform: uppercase; }
+
+/* ----------tea block--------------------*/
+.tea {
+  background-color: #f5f5f5; }
+
+.tea_author_photo {
+  background-image: url(../images/author_2.png); }
+
+.tea_teapot {
+  background-image: url(../images/blue_bg.png); }
+  .tea_teapot h5 {
+    color: #266258; }
+  .tea_teapot h6 {
+    color: #438a7e; }
+
+/*-----------Shakers block -----------*/
+.shakers {
+  background-color: #f5f5f5; }
+  .shakers h1 {
+    margin-top: 45px;
+    padding-left: 60px; }
+  .shakers h3 {
+    font-family: "Roboto";
+    font-weight: 300; }
+
+.shakers_collection {
+  background-image: url(../images/ebony_ivory.png); }
+  .shakers_collection h5 {
+    color: #586e47; }
+  .shakers_collection h6 {
+    color: #7c9965; }
+
+.shakers_author_photo {
+  background-image: url(../images/author_3.png); }
+
+/*-------------------Aunthntics block-------*/
+.authentics {
+  background-color: #f0f0f0; }
+  .authentics h1 {
+    margin-top: 45px;
+    padding-left: 60px; }
+  .authentics .dishes_block_presentation-author {
+    right: 70px; }
+  .authentics h3 {
+    font-family: "Roboto";
+    font-weight: 300; }
+
+.authentics_collection {
+  background-image: url(../images/orange_bg.png); }
+  .authentics_collection h5 {
+    color: #785e28; }
+  .authentics_collection h6 {
+    color: #ae883b; }

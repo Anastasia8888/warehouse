@@ -1,0 +1,138 @@
+$margin_block: 60px;
+$roboto: 'Roboto';
+.dishes{
+  display: flex;
+  height: 380px;
+}
+.dishes__collection{
+  z-index: 50;
+  display: inline-block;
+  width: 25%;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  img{
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    display: block;
+  }
+}
+.dishes__presentation{
+  position: relative;
+  z-index: 0;
+  width: 75%;
+}
+.dishes-presentation__author{
+  position: absolute;
+  top: 70px;
+  right: 100px;
+  display: inline-block;
+  width: 225px;
+}
+.dishes-presentation__photo{
+  margin-left: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size: cover;
+}
+.dishes-presentation__header{
+  margin-top: $margin_block;
+  margin-left: $margin_block;
+  position: relative;
+  display: inline-block;
+}
+.dishes-presentation__img{
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  display: inline-block;
+  overflow: hidden;
+  img{
+    margin: 0 auto; 
+    display: block;
+  }
+}
+.dishes-presentation__money{
+  font-size: 27px;
+  margin-top: 15px;
+}
+.faved{
+  color: #fa857b;
+}
+.favorites{
+  margin-top: 40px;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+/* ----------tea block--------------------*/
+.pots{
+ background-color: #f5f5f5;
+} 
+.pots-author__photo{
+  background-image: url(../images/author_2.png);
+}
+.pots__collection{
+  background-image: url(../images/blue_bg.png);
+  h5{
+   color: rgb(38, 98, 88);
+ }
+ h6{
+   color: rgb(67, 138, 126);
+ }
+}
+.dash{
+  margin-left: 80px;
+}
+/*-----------Shakers block -----------*/
+.shakers{
+  background-color: #f5f5f5;
+  h1{
+    margin-top: 45px;
+  }
+  h3{
+    font-family: $roboto;
+    font-weight: 300;
+  }
+}
+.shakers__collection{
+  background-image: url(../images/ebony_ivory.png);
+  background-position: left;
+  h5{
+   color: #586e47;
+ }
+ h6{
+   color: #7c9965;
+ }
+}
+.shakers-author__photo{
+  background-image: url(../images/author_3.png);
+}
+/*-------------------Aunthentics block-------*/
+.authentics{
+  background-color: #f0f0f0;
+  h1{
+    margin-top: 45px;
+  }
+  .dishes-presentation__author{
+    right: 70px;
+  }
+  h3{
+    font-family: $roboto;
+    font-weight: 300;
+  }
+}
+.authentics-author__photo{
+  background-image: url(../images/author_4.png);
+}
+.authentics__collection{
+  background-image: url(../images/orange_bg.png);
+  h5{
+   color: #785e28;
+ }
+ h6{
+   color: #ae883b;
+ }
+}

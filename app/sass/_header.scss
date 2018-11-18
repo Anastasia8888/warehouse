@@ -1,0 +1,91 @@
+.header{
+  position: relative;
+  height: 670px;
+  width: 100%;
+  background-color: #e9eae2;
+}
+.header__logo{
+  padding: 20px;
+}
+.header__triangle {  
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 185px;
+  width: 0px;
+  height: 0px;
+  border-style: inset;
+  border-left: 170px solid transparent;
+  border-right: 170px solid transparent;
+  border-top: 285px solid #f9c34a;
+  p {
+    margin: 0px;
+    position: relative;
+    top: -210px;
+    left: -47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 93px;
+    height: 93px;
+    text-align: center;
+    img{
+      margin: 0 7px;
+    }
+  }
+}
+.spice{
+  display: flex;
+  justify-content: space-between;
+}
+.spice__text{
+  margin-left: 50px;
+  padding-top: 150px;
+  z-index: 4;
+}
+.spice__bottles {
+  margin-top: 50px;
+  display: flex;
+}
+.spice__bottles_salt{
+  z-index: 20;
+  position: absolute;
+  top: 290px;
+  left: 180px;
+  width: 300px;
+  height: 350px;
+  display: inline-block;
+  background-image: url(../images/salt.png);
+  background-repeat: no-repeat;
+}
+.spice__bottles_pepper{
+  z-index: 10;
+  position: absolute;
+  top: 170px;
+  left: 270px;
+  width: 300px;
+  height: 520px;
+  background-image: url(../images/pepper.png);
+  background-repeat: no-repeat;
+}
+.spice__author{
+  position: relative;
+  margin: 0 auto;
+  h1{
+    margin-top: 50px;
+    text-align: center; 
+  }
+  p{
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+.spice-author__photo{
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url(../images/author_1.png);
+  background-size: cover;
+
+}

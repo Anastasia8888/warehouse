@@ -1,0 +1,34 @@
+@import "fontawesome/fontawesome.scss";
+@import "fontawesome/solid.scss";
+@import "fontawesome/regular.scss";
+@import "fontawesome/brands.scss";
+@import "fontawesome/v4-shims.scss";
+@import "typography";
+@import "header";
+@import "navigation";
+@import "collections";
+@import "rooms";
+@import "footer";
+html,body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content_box {
+  flex: 1 0 auto;
+}
+.fa-angle-right{
+   position: absolute;
+   top: 50%;
+   right: 50px;
+   display: inline-block;
+   color: rgb(189, 189, 189);
+}
+.fa-heart{
+  padding-right: 10px;
+}
+
+
